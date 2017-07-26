@@ -24,4 +24,6 @@ dx_{k}/dt = -x_{k-2} * x_{k-1} + x_{k-1} * x_{k+1} - x_k + F,  k=1,...,N
 
 7. test_strategy1.m
 	Use strategy 1, where data is collected from K bursts starting from K random uniform initializations (see more in our paper), compute the recovered coefficients of any component of the Lorenz 96.
+ 8. test_strategy2.m (to be uploaded)
+ 9. test_strategy3.m (to be uploaded)
  
