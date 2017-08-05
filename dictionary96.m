@@ -26,7 +26,7 @@ phiX(:,2:n+1) = sqrt(3)*U;               % x1 x2 ... xn
 for k = 1:n
         phiX(:, (k*(2*n-k+3)/2+1) : ((k+1)*n -k^2/2 + k/2 +1 )) = 3*repmat(U(:,k),1,n+1-k).*U(:,k:n);
     if (strcmp(option,'legendre'))
-        phiX(:, (k*(2*n-k+3)/2+1)) = sqrt(5)*(3*U(:,k).^2-ones(m,1));
+        phiX(:, (k*(2*n-k+3)/2+1)) = (sqrt(5)/2.0)*(3*U(:,k).^2-ones(m,1));
     end
     
 end
