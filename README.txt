@@ -1,5 +1,5 @@
 Extracting Sparse High-Dimensional Dynamics from Limited Data
-Copywright: Hayden Schaeffer, Giang Tran, and Rachel Ward.
+Copyright: Hayden Schaeffer, Giang Tran, and Rachel Ward.
 Version 1, July 2017 
 Reference: arxiv link
 
