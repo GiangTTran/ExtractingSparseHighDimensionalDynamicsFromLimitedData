@@ -55,17 +55,6 @@ c = c./(sqrt(sum(D.^2,1)))';% only do when using Dnormalized
 
 % rescale back to the monomial basis
 c_recover_index = find(c);
-if strcmp(optPolynomial,'legendre')
-    for inIter = 1:length(find(c))
-        indtmp = c_recover_index(inIter);
-        if (indtmp ==1)
-            soln(indtmp) = c(indtmp);
-        else if (indtmp<=n+1) 
-            soln(indtmp) = c(indtmp)*sqrt(3);
-        else soln(indtmp) = c(indtmp)*3;
-            end
-        end
-    end
-end
+
 return
 
